@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JPF.iml" filepath="$PROJECT_DIR$/.idea/modules/JPF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPF.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPF.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPF.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPF.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPF.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPF.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPF.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPF.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

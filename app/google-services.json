@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "922911615708",
+    "project_id": "national-paints-d4c7c",
+    "storage_bucket": "national-paints-d4c7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922911615708:android:8e064b5f90b98183c5e219",
+        "android_client_info": {
+          "package_name": "com.app.jpf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922911615708-a1gtqv7hh92ciu10meqepnv6oqnr25or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.jpf",
+            "certificate_hash": "e082be386268ec8c7ad719d954144b6c051f270e"
+          }
+        },
+        {
+          "client_id": "922911615708-3d94bgfneupt4om76arb1utq0ah0k98c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArd1Yfp-eTHNIRU1Kp3MQhv7xzSQWZhY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922911615708-3d94bgfneupt4om76arb1utq0ah0k98c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

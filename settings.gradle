@@ -1,0 +1,2 @@
+rootProject.name = "JPF"
+include ':app'
