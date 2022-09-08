@@ -26,48 +26,63 @@
         tools:targetApi="m">
 
         <activity
+
             android:name="com.app.jpf.activities_fragments.activity_products.ProductsActivity"
+            android:exported="false"
             android:configChanges="keyboardHidden|screenSize|orientation"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.app.jpf.activities_fragments.activity_view.ViewActivity"
+            android:exported="false"
             android:configChanges="keyboardHidden|screenSize|orientation"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.app.jpf.activities_fragments.activity_sign_up.SignUpActivity"
+            android:exported="false"
             android:configChanges="keyboardHidden|screenSize|orientation"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.app.jpf.activities_fragments.activity_paints.PaintsActivity"
+            android:exported="false"
             android:configChanges="keyboardHidden|screenSize|orientation"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.app.jpf.activities_fragments.activity_product_detials.ProductDetialsActivity"
+            android:exported="false"
             android:configChanges="keyboardHidden|screenSize|orientation"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.app.jpf.activities_fragments.activity_notification.NotificationActivity"
+            android:exported="false"
             android:configChanges="keyboardHidden|screenSize|orientation"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name="com.app.jpf.activities_fragments.activity_award.AwardActivity" />
-        <activity android:name="com.app.jpf.activities_fragments.activity_points.PointsActivity" />
-        <activity android:name="com.app.jpf.activities_fragments.activity_shop_gallery.ShopGalleryActivity" />
+        <activity android:name="com.app.jpf.activities_fragments.activity_award.AwardActivity"
+            android:exported="false"/>
+        <activity android:name="com.app.jpf.activities_fragments.activity_points.PointsActivity"
+            android:exported="false"/>
+        <activity android:name="com.app.jpf.activities_fragments.activity_shop_gallery.ShopGalleryActivity"
+            android:exported="false"/>
         <activity
             android:name="com.app.jpf.activities_fragments.activity_qr_code.QrCodeActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false"/>
         <activity
             android:name="com.app.jpf.activities_fragments.activity_map.MapActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false"
+            />
         <activity
             android:name="com.app.jpf.activities_fragments.activity_home.HomeActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false"/>
         <activity
             android:name="com.app.jpf.activities_fragments.activity_verification_code.VerificationCodeActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            />
         <activity
             android:name="com.app.jpf.activities_fragments.activity_login.LoginActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
@@ -75,6 +90,7 @@
         <activity
             android:name="com.app.jpf.activities_fragments.activity_splash.SplashActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
+            android:exported="true"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

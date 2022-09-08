@@ -28,6 +28,7 @@ import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -201,6 +202,7 @@ public class VerificationCodeActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<UserModel> call, Response<UserModel> response) {
                         dialog.dismiss();
+                        Log.e("res",response.code()+" "+phone_code+" "+phone);
                         if (response.isSuccessful()&&response.body()!=null) {
                             Log.e("code", response.body().getStatus()+"__");
 
@@ -214,6 +216,11 @@ public class VerificationCodeActivity extends AppCompatActivity {
                             }
 
                         } else {
+                            try {
+                                Log.e("msg_category_error", response.code() + "__"+response.errorBody().string());
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
 
                             if (response.code() == 500) {
                               //  Toast.makeText(VerificationCodeActivity.this, "Server Error", Toast.LENGTH_SHORT).show();

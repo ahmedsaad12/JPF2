@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.FlyingPumba:SimpleRatingBar:v0.1.5@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/4960e3226849e42b5161704b28d7c52c/transformed/jetified-SimpleRatingBar-v0.1.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/4960e3226849e42b5161704b28d7c52c/transformed/jetified-SimpleRatingBar-v0.1.5/res" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/4960e3226849e42b5161704b28d7c52c/transformed/jetified-SimpleRatingBar-v0.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/fbc4a7dd59028a1f39e1a3b51aa2f1bc/transformed/jetified-SimpleRatingBar-v0.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/fbc4a7dd59028a1f39e1a3b51aa2f1bc/transformed/jetified-SimpleRatingBar-v0.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/fbc4a7dd59028a1f39e1a3b51aa2f1bc/transformed/jetified-SimpleRatingBar-v0.1.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/modules-2/files-2.1/com.github.FlyingPumba/SimpleRatingBar/v0.1.5/686c5ee587e18dbf3d97c71e601eafc5bfc0d4fe/SimpleRatingBar-v0.1.5-javadoc.jar!/" />
