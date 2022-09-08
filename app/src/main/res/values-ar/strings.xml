@@ -79,4 +79,10 @@
     <string name="enter_barcode">أدخر الباركود</string>
     <string name="edit_location">تعديل الموقع</string>
     <string name="succ">تم تحديث موقع معرض التلوين بنجاح</string>
+    <string name="yemen">اليمن</string>
+    <string name="jepoty">جيبوتى</string>
+    <string name="somal_land">صومال لاند</string>
+    <string name="somalia">الصومال</string>
+    <string name="comors">جزر القمر</string>
+    <string name="oman">عمان</string>
 </resources>

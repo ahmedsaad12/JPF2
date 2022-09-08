@@ -79,4 +79,10 @@
     <string name="enter_barcode">Enter barcode</string>
     <string name="edit_location">Edit Location</string>
     <string name="succ">updated seccess</string>
+    <string name="yemen">Yemen</string>
+    <string name="jepoty">Djibouti</string>
+    <string name="somal_land">somalialand</string>
+    <string name="somalia">Somalia</string>
+    <string name="comors">State of the Comoros</string>
+    <string name="oman">Oman</string>
 </resources>

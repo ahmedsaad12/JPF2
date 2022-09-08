@@ -73,7 +73,13 @@ public class LoginActivity extends AppCompatActivity {
 
     private void initView() {
         countries = new CountryModel[]{new CountryModel("EG", getResources().getString(R.string.egypt), "+20", R.drawable.flag_eg, "EGP"),
-                new CountryModel("SA", getResources().getString(R.string.saudi_arabia), "+966", R.drawable.flag_sa, "SAR")};
+                new CountryModel("SA", getResources().getString(R.string.saudi_arabia), "+966", R.drawable.flag_sa, "SAR"),
+                new CountryModel("YE", getResources().getString(R.string.yemen), "+967", R.drawable.yemen, " YER"),
+                new CountryModel("DG", getResources().getString(R.string.jepoty), "+253", R.drawable.jepoty_flag, "F.G"),
+                new CountryModel("SO", getResources().getString(R.string.somal_land), "+252", R.drawable.somal_land_flag, "SOS"),
+                new CountryModel("SO", getResources().getString(R.string.somalia), "+252", R.drawable.somal_flag, "SOS"),
+                new CountryModel("KM", getResources().getString(R.string.comors), "+269", R.drawable.comors_flage, "CF"),
+                new CountryModel("OM", getResources().getString(R.string.oman), "+968", R.drawable.oman_flag, "OMR")};
         countryModelList = new ArrayList<>(Arrays.asList(countries));
 
         preferences = Preferences.getInstance();
